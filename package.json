@@ -1,0 +1,35 @@
+{
+  "name": "nuevo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "make-migration": "knex migrate:make",
+    "migrate": "knex migrate:up",
+    "rollback": "knex migrate:rollback",
+    "list-migrations": "knex migrate:list"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "firebase-admin": "^11.3.0",
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1",
+    "normalizr": "^3.6.2",
+    "session-file-store": "^1.5.0",
+    "socket.io": "^4.5.2",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
